@@ -5,31 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Azaz Ahmad's Research</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      body {
-        background-color: #f8f9fa; /* Gray background color */
-      }
-      #container {
-        width: 80%;
-        margin: auto;
-        background-color: white;
-      }
-      #navbar {
-        background-color: #ffbd08fa; /* Orange background color */
-      }
-    </style>
   </head>
-  <body class="">
+  <body class="bg-[#f8f9fa]">
     <div class="containers w-full justify-center items-center mx-auto">
       <div
         id="navbar"
-        class="flex items-center justify-between p-4 w-[80%] mt-4 mx-auto">
-        
+        class="flex items-center justify-between p-4 lg:w-[80%] sm:w-full lg:mt-2 sm:mt-0 mx-auto bg-[#ffbd08fa]"
+      >
         <div>
           <!-- Your logo or text goes here -->
-          <span class="text-white text-xl"
-            >My Research</span
-          >
+          <span class="text-white text-xl">My Research</span>
         </div>
         <div class="flex lg:flex-row sm:flex-col sm:text-right">
           <!-- Your menu items go here -->
@@ -44,8 +29,11 @@
           <!-- Add more menu items if needed -->
         </div>
       </div>
-
-      <div id="container" class="p-8 w-3/4 lg:mr-8">
+      <!-- Container -->
+      <div
+        id="container"
+        class="p-8 lg:w-[80%] sm:w-full  sm:m-auto bg-white"
+      >
         <div class="flex items-center sm:flex-col lg:flex-row">
           <div class="lg:w-[100%] lg:h-[]">
             <img
